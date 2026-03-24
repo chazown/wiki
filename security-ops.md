@@ -114,3 +114,14 @@ sudo systemctl stop [서비스명]
 
 # 부팅 시 자동 시작 등록
 sudo systemctl enable [서비스명]
+
+---
+## 5. 🤖 Advanced Security (Automation)
+주인님 전용 보안 자동화 도구 활용 가이드입니다.
+
+### 🔹 취약점 자동 진단 (Vuln-Scan)
+- `vuln-auto-scan` 리포지토리를 활용하여 주요정보통신기반시설 기술적 점검 수행.
+- 점검 후 결과값 DB 저장 및 보고서 자동화 연동.
+
+### 🔹 보안 운영 자동화 (SOAR)
+- `soar` 프로젝트의 Ansible 플레이북을 활용하여 반복적인 침해 사고 대응 프로세스 자동화.
